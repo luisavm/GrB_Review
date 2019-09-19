@@ -1,0 +1,41 @@
+@mixin column(){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin rows(){
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin coolrec(){
+    width: 45px;
+    height: 20px;
+    background-color: yellow;  
+}
+
+@mixin boringrec(){
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+}
+
+.cols{
+    @include column();
+    h1 {
+        font-size: 60px;
+        color: aliceblue;
+    }
+    p {
+        color: lightyellow;
+    }
+}
+
+.rows{
+    @include rows();
+}
+
+.rec{
+    @include boringrec();
+}
+

@@ -1,0 +1,58 @@
+/* .cols {
+  display: flex;
+  flex-direction: column;
+}
+.cols h1 {
+  font-size: 60px;
+  color: aliceblue;
+}
+.cols p {
+  color: lightyellow;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.rec {
+  width: 20px;
+  height: 20px;
+  background-color: bisque;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3 {
+  color: yellow;
+} */
+
+nav{background-color: pink} 
+
+nav ul{margin:0;
+border: 0;
+padding:0}
+
+nav ul li{
+    display:inline
+}
+
+nav a{text-decoration: none}
+
+body{
+    background-color:#000;
+    color: #fff;
+}
+
+h1,h2,h3{ 
+    color:#ff0}
+
+
+.panel{min-height:80vh}
+    .panel:nth-child(even)
+
+    {background-color: salmon; color: #fff;}#to-top
+    {position:fixed; bottom: 10px; right: 10px; display: none}
+/*# sourceMappingURL=main.css.map */
