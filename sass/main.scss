@@ -1,7 +1,11 @@
 //import go first --> grab_vars and any other partials
 @import'_vars';
 @import 'modules/navbar';
-@import "modules/example";
+// @import "modules/example";
+
+// import the user stuff
+@import 'modules/_users';
+
 
 body { background-color: $body-bg;
     color: $main-color; 
